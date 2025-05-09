@@ -25,3 +25,72 @@ shape = SubResource("RectangleShape2D_hu3hr")
 zoom = Vector2(4, 4)
 
 [node name="Crate" parent="." instance=ExtResource("3_tq8ti")]
+
+[node name="Crate2" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-22, 35)
+
+[node name="Crate3" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(31, -25)
+
+[node name="Crate4" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(25, 23)
+
+[node name="Crate5" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-49, 56)
+
+[node name="Crate6" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-52, 12)
+
+[node name="Crate7" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(24, 60)
+
+[node name="Crate8" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-30, -22)
+
+[node name="Crate9" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(110, 65)
+
+[node name="Crate10" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(71, 41)
+
+[node name="Crate11" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-58, -48)
+
+[node name="Crate12" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(-14, -61)
+
+[node name="Crate13" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(47, -57)
+
+[node name="Crate14" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(115, 33)
+
+[node name="Crate15" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(119, 1)
+
+[node name="Crate16" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(158, 58)
+
+[node name="Crate17" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(170, 26)
+
+[node name="Crate18" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(150, 5)
+
+[node name="Crate19" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(100, -26)
+
+[node name="Crate20" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(71, -40)
+
+[node name="Crate21" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(180, -29)
+
+[node name="Crate22" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(127, -40)
+
+[node name="Crate23" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(155, -65)
+
+[node name="Crate24" parent="." instance=ExtResource("3_tq8ti")]
+position = Vector2(189, 69)
