@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=3 uid="uid://d0cd8vwqwunkj"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_fv6dv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_15bix"]
+albedo_color = Color(0.482592, 0.299677, 0.045191, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ytqqh"]
+
+[sub_resource type="Gradient" id="Gradient_cxn36"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0.459918, 0.234993, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_qtgh3"]
+gradient = SubResource("Gradient_cxn36")
+fill_from = Vector2(0.476496, 0)
+fill_to = Vector2(0.519231, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_byh4q"]
+albedo_texture = SubResource("GradientTexture2D_qtgh3")
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pf7po"]
+height = 2.3584
+radius = 0.352539
+
+[node name="Tree" type="StaticBody3D" groups=["Tree"]]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.7, 0, 0, 0, 1.40395, 0, 0, 0, 0.7, 0, 1.07577, 0)
+mesh = SubResource("CylinderMesh_fv6dv")
+surface_material_override/0 = SubResource("StandardMaterial3D_15bix")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.58, 0, 0, 0, 2.121, 0, 0, 0, 2.58, 0, 2.44378, 0)
+mesh = SubResource("SphereMesh_ytqqh")
+surface_material_override/0 = SubResource("StandardMaterial3D_byh4q")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.2, 0, 0, 0, 1.808, 0, 0, 0, 2.2, 0, 3.56055, 0)
+mesh = SubResource("SphereMesh_ytqqh")
+surface_material_override/0 = SubResource("StandardMaterial3D_byh4q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.900829, 0)
+shape = SubResource("CylinderShape3D_pf7po")

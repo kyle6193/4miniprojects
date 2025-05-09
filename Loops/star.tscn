@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvwkae7htafi"]
+
+[ext_resource type="Texture2D" uid="uid://cdpvuirtpg6ad" path="res://Loops/Star.png" id="1_swhgp"]
+
+[node name="Star" type="Sprite2D"]
+texture = ExtResource("1_swhgp")
