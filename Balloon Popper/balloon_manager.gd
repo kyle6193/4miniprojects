@@ -1,3 +1,4 @@
+# This script manages the score for the Balloon Popper game.
 extends Node3D
 
 var score : int = 0

@@ -1,3 +1,4 @@
+# This script controls the behavior of a balloon in the Balloon Popper game.
 extends Area3D
 
 # @export makes the variable editable in the Inspector Dock
