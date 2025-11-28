@@ -9,7 +9,7 @@ extends Area3D
 # _camera: The camera node that received the event (useful for raycasting or camera-relative input)
 # event: The actual input event (mouse, keyboard, etc.)
 # _event_position: The position in 3D space where the event occurred (e.g., where the mouse clicked the object)
-# _normal: The normal vector at the event position (useful for physics or effects)
+# _normal: The normal vector at the event position (useful for physics or effects). A normal is a line that is perpendicular to a surface.
 # _shape_idx: The index of the shape within the Area3D that was interacted with (if there are multiple shapes)
 func _on_input_event(_camera: Node, event: InputEvent, _event_position: Vector3, _normal: Vector3, _shape_idx: int):
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed: # This means if the event is mouse related, a button, that button was LMB, and it was clicked instead of held
