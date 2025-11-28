@@ -9,3 +9,4 @@ func _process(delta: float):
 		var dir = global_position.direction_to(get_global_mouse_position()) # Get direction to mouse
 		apply_impulse(dir * hit_force) # Apply force in that direction
 
+# This script moves the player in the direction of the mouse click when the left mouse button is pressed.

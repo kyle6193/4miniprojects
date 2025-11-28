@@ -17,5 +17,10 @@ func _on_input_event(_camera: Node, event: InputEvent, _event_position: Vector3,
 		clicks_to_pop -= 1
 		
 		if clicks_to_pop == 0:
-			get_node("/root/Main").increase_score(score_to_give) #This takes the variable here "score_to_give" and sends it to the balloon_manager.gd script and uses it in the increase_score function
-			queue_free() #This deletes the object from the screen
+			get_node("/root/Main").increase_score(score_to_give) 
+			queue_free() 
+			'''
+			This if statement checks if the balloon has been clicked enough times to pop it.
+			If yes, it sends the variable score_to_give to the other script on the Main node called balloon_manager.gd and calls that script's increase_score function.
+			Then it deletes the balloon from the scene using queue_free().
+			'''
