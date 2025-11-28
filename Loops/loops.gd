@@ -4,7 +4,7 @@ extends Node2D
 # @export makes the variable editable in the Inspector Dock
 @export var spawn_count : int = 200
 @export var spawn_interval : float = 0.025
-var star_scene = preload("res://Loops/star.tscn") #this adds a file to the game at launch. In this case, the star scene
+var star_scene = preload("res://Loops/star.tscn") # this adds a file to the game at launch. In this case, the star scene
 var time_passed : float = 0.0
 var stars_spawned : int = 0
 
